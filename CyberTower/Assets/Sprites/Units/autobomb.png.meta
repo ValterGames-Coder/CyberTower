@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: 4
     textureCompression: 1
@@ -133,7 +133,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 24
+        y: 72
         width: 17
         height: 16
       alignment: 0
@@ -154,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1
-        y: 6
+        y: 54
         width: 13
         height: 13
       alignment: 0
@@ -175,7 +175,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 12
+        y: 60
         width: 7
         height: 7
       alignment: 0
@@ -196,7 +196,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 15
-        y: 4
+        y: 52
         width: 7
         height: 7
       alignment: 0
@@ -208,6 +208,48 @@ TextureImporter:
       bones: []
       spriteID: d5f3f1f233664ffe6986cb257f3b656f
       internalID: 1736566003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autobomb_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e959dce8e5ab873a007ca705c7f6ea
+      internalID: 1958554300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: autobomb_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a30fbac0c42801c8065a128431163f
+      internalID: -332700058
       vertices: []
       indices: 
       edges: []
@@ -227,6 +269,8 @@ TextureImporter:
       autobomb_1: 137552652
       autobomb_2: 982774126
       autobomb_3: 1736566003
+      autobomb_4: 1958554300
+      autobomb_5: -332700058
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
