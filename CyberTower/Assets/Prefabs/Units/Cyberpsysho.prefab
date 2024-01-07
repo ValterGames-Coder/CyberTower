@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4199090869863073090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460344567785404408}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460344567785404408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4199090869863073090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.393, y: 0.021, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8981749398993552447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8981749398458204581
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,6 +126,15 @@ MonoBehaviour:
   _speed: 1
   _rigidbody: {fileID: 8981749398458204600}
   _stoppedDistance: {x: 6.5, y: 9}
+  _isFlying: 0
+  _flyHeight: 0
+  _damage: 5
+  _bulletSpeed: 9
+  _defaultTimeReload: 3
+  _spread: 1
+  _destroyed: 0
+  _bulletPrefab: {fileID: 4352731350596098425, guid: 017dbd56928a8b1bb94032061df71fd2, type: 3}
+  _spawnPoint: {fileID: 1460344567785404408}
   _animator: {fileID: 8981749398458204580}
 --- !u!61 &8981749398458204582
 BoxCollider2D:
@@ -318,7 +358,8 @@ Transform:
   m_LocalPosition: {x: 0.29399997, y: 0.032, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1460344567785404408}
   m_Father: {fileID: 8981749399334197401}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

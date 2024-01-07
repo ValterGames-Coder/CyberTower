@@ -112,7 +112,8 @@ Transform:
   m_LocalPosition: {x: 0.09537908, y: -0.2720043, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 5117307212883240590}
   m_Father: {fileID: 5543471306348338708}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -458,4 +459,44 @@ MonoBehaviour:
   _speed: 2.5
   _rigidbody: {fileID: 5543471306985620587}
   _stoppedDistance: {x: 5.5, y: 7}
+  _isFlying: 1
+  _flyHeight: 1.5
+  _damage: 2
+  _bulletSpeed: 12
+  _defaultTimeReload: 2
+  _spread: 5
+  _destroyed: 0
+  _bulletPrefab: {fileID: 6086724604963853425, guid: f31d776f8bcd38f8e8fa005e2e05452a, type: 3}
+  _spawnPoint: {fileID: 5117307212883240590}
   _animator: {fileID: 5543471306985620631}
+--- !u!1 &8547792403621138795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5117307212883240590}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5117307212883240590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547792403621138795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.227, y: -0.077, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5543471306049768886}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

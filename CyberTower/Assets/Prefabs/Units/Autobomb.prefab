@@ -205,7 +205,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 5
   _rigidbody: {fileID: 4262972068410966670}
-  _stoppedDistance: {x: 3.5, y: 4.5}
+  _stoppedDistance: {x: 2, y: 3}
+  _isFlying: 0
+  _flyHeight: 0
+  _damage: 4
+  _bulletSpeed: 0
+  _defaultTimeReload: 0
+  _spread: 0
+  _bulletPrefab: {fileID: 2869925290093653388, guid: 2cbe1bee9adcbe8bdbcd06c5271c646a, type: 3}
+  _spawnPoint: {fileID: 4262972068410966665}
   _animator: {fileID: 4262972068410966666}
 --- !u!1 &4262972068674590324
 GameObject:
