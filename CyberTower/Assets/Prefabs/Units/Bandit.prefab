@@ -23,14 +23,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155131487333314990}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.255, y: 0.017, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7599168129689937245}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &7599168128660708183
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,9 +382,10 @@ GameObject:
   - component: {fileID: 7599168129506754418}
   - component: {fileID: 7599168129506754417}
   - component: {fileID: 7599168129506754419}
+  - component: {fileID: 8787267681575705651}
   m_Layer: 6
   m_Name: Bandit
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +471,6 @@ MonoBehaviour:
   _bulletSpeed: 7
   _defaultTimeReload: 1.5
   _spread: 3
-  _destroyed: 0
   _bulletPrefab: {fileID: 3987650251748668389, guid: 0236e7eed4f631cecb6c721710720855, type: 3}
   _spawnPoint: {fileID: 2905800428864029113}
   _animator: {fileID: 7599168129506754431}
@@ -500,6 +500,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.75, y: 1.25}
   m_EdgeRadius: 0
+--- !u!114 &8787267681575705651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7599168129506754430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af109358ce64b4fbfd77697852ba9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 100
 --- !u!1 &7599168129689937244
 GameObject:
   m_ObjectHideFlags: 0

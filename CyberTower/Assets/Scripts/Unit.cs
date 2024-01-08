@@ -1,16 +1,10 @@
-using System;
-using System.Collections;
 using UnityEngine;
 using NaughtyAttributes;
-using Random = UnityEngine.Random;
 
-public enum AttackType
-{
-    Near,
-    Far
-}
-
-[RequireComponent(typeof(Rigidbody2D), typeof(BoxCollider2D))]
+[RequireComponent(
+    typeof(Rigidbody2D),
+    typeof(BoxCollider2D),
+    typeof(Health))]
 public class Unit : MonoBehaviour
 {
     [Header("Move")]
@@ -32,10 +26,14 @@ public class Unit : MonoBehaviour
     
     [SerializeField] private Animator _animator;
     private GameManager _game;
+    private bool _isDied;
+    private Health _health;
 
     private void Start()
     {
         _game = FindObjectOfType<GameManager>();
+        _health = GetComponent<Health>();
+        _health.IsDied += Died;
         _randomStoppedDistance = Random.Range(_stoppedDistance.x, _stoppedDistance.y);
         if (_isFlying)
         {
@@ -51,25 +49,38 @@ public class Unit : MonoBehaviour
         {
             Vector3 position = transform.position;
             Vector2 target = new Vector2(_game.tower.position.x, position.y);
-            position = Vector3.MoveTowards(position, target , _speed * Time.deltaTime);
+            position = Vector3.MoveTowards(position, target, _speed * Time.deltaTime);
             transform.position = position;
         }
         else
         {
             _timeReload -= Time.deltaTime;
-            if (_timeReload <= 0)
+            if (_timeReload <= 0 && _isDied == false)
             {
                 _animator.SetTrigger("Attack");
                 _timeReload = _defaultTimeReload;
             }
         }
+        
         _animator.SetFloat("Speed", _game.tower.position.x - transform.position.x > _randomStoppedDistance ? 1 : 0);
     }
 
     private void Attack()
     {
-        Bullet bullet = Instantiate(_bulletPrefab, _spawnPoint.position, Quaternion.Euler(0,0, _spawnPoint.localRotation.z + Random.Range(-_spread/10, _spread*2)));
-        bullet.Init(_bulletSpeed, _damage);
+        _spawnPoint.rotation = Quaternion.Euler(0, 0, -90 + Random.Range(-_spread / 10, _spread * 2));
+        Bullet bullet = Instantiate(_bulletPrefab, _spawnPoint.position, _spawnPoint.rotation);
+        bullet.Init(_bulletSpeed, _damage, "Tower");
+    }
+
+    private void Died()
+    {
+        _speed = 0;
+        _isDied = true;
+        if (_isFlying)
+        {
+            _rigidbody.gravityScale = 1;
+        }
+        _animator.SetTrigger("Died");
     }
 
     private void AutoDestroy() => Destroy(gameObject);

@@ -97,9 +97,10 @@ GameObject:
   - component: {fileID: 4262972068410966670}
   - component: {fileID: 4262972068410966671}
   - component: {fileID: 4262972068410966664}
+  - component: {fileID: -3808146211937268763}
   m_Layer: 6
   m_Name: Autobomb
-  m_TagString: Untagged
+  m_TagString: Unit
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -215,6 +216,19 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 2869925290093653388, guid: 2cbe1bee9adcbe8bdbcd06c5271c646a, type: 3}
   _spawnPoint: {fileID: 4262972068410966665}
   _animator: {fileID: 4262972068410966666}
+--- !u!114 &-3808146211937268763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4262972068410966667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3af109358ce64b4fbfd77697852ba9b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: 100
 --- !u!1 &4262972068674590324
 GameObject:
   m_ObjectHideFlags: 0
