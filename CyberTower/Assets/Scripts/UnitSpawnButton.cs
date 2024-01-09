@@ -53,6 +53,7 @@ public class UnitSpawnButton :
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        _unitSpawner.SetUnit(null);
         Debug.Log(_transform.anchoredPosition);
         _startPosition = _transform.anchoredPosition;
     }

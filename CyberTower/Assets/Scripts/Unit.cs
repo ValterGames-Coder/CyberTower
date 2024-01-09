@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using NaughtyAttributes;
+using Random = UnityEngine.Random;
 
 [RequireComponent(
     typeof(Rigidbody2D),
@@ -26,15 +28,15 @@ public class Unit : MonoBehaviour
     [SerializeField] private Transform _spawnPoint;
     
     [SerializeField] private Animator _animator;
-    private GameManager _game;
+    private GameManager _gameManager;
     private bool _isDied;
     private Health _health;
 
     private void Start()
     {
-        _game = FindObjectOfType<GameManager>();
+        _gameManager = FindObjectOfType<GameManager>();
         _health = GetComponent<Health>();
-        _health.IsDied += Died;
+        _health.OnDied += Died;
         _randomStoppedDistance = Random.Range(_stoppedDistance.x, _stoppedDistance.y);
         if (_isFlying)
         {
@@ -46,12 +48,12 @@ public class Unit : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_game.State == GameState.Play)
+        if (_gameManager.State == GameState.Play)
         {
-            if (_game.tower.position.x - transform.position.x > _randomStoppedDistance)
+            if (_gameManager.Tower.position.x - transform.position.x > _randomStoppedDistance)
             {
                 Vector3 position = transform.position;
-                Vector2 target = new Vector2(_game.tower.position.x, position.y);
+                Vector2 target = new Vector2(_gameManager.Tower.position.x, position.y);
                 position = Vector3.MoveTowards(position, target, _speed * Time.deltaTime);
                 transform.position = position;
             }
@@ -65,7 +67,7 @@ public class Unit : MonoBehaviour
                 }
             }
             
-            _animator.SetFloat("Speed", _game.tower.position.x - transform.position.x > _randomStoppedDistance ? 1 : 0);
+            _animator.SetFloat("Speed", _gameManager.Tower.position.x - transform.position.x > _randomStoppedDistance ? 1 : 0);
         }
     }
 
@@ -95,5 +97,10 @@ public class Unit : MonoBehaviour
         {
             _randomStoppedDistance = 10;
         }
+    }
+
+    private void OnDestroy()
+    {
+        _gameManager.CheckUnits(gameObject);
     }
 }

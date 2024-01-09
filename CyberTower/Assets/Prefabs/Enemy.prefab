@@ -251,7 +251,7 @@ MonoBehaviour:
   _bulletSpeed: 10
   _defaultTimeReload: 2
   _spread: 0.1
-  _bulletPrefab: {fileID: 1985770964712078720, guid: edf5eabe7b0ef17c68a6a9c5faa0bb63, type: 3}
+  _bulletPrefab: {fileID: 1985770964712078720, guid: 2e836f0edbccbb027a83736621530a9c, type: 3}
   _spawnPoint: {fileID: 5360995666495140651}
   _attackRadius: 9
   _unitMask:

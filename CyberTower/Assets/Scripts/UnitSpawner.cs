@@ -35,7 +35,8 @@ public class UnitSpawner : MonoBehaviour
     {
         if (_currentUnit == null) return;
         _spawnPosition = new Vector2(_camera.ScreenToWorldPoint(position.position).x, _currentUnit.spawnY);
-        Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
+        Unit newUnit = Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
+        _gameManager.units.Add(newUnit.gameObject);
         _currentUnit = null;
         EventSystem.current.SetSelectedGameObject(null);
     }
@@ -44,7 +45,8 @@ public class UnitSpawner : MonoBehaviour
     {
         if (_currentUnit == null) return;
         _spawnPosition = new Vector2(position.x, _currentUnit.spawnY);
-        Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
+        Unit newUnit = Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
+        _gameManager.units.Add(newUnit.gameObject);
         _currentUnit = null;
         EventSystem.current.SetSelectedGameObject(null);
     }
@@ -59,7 +61,7 @@ public class UnitSpawner : MonoBehaviour
         if (_isMobile == false)
         {
 
-            if (_currentUnit != null && Input.GetMouseButtonDown(0))
+            if (_currentUnit != null && Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
             {
                 Vector2 mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
                 Spawn(mousePosition);
