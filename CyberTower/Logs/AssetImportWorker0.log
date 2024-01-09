@@ -5743,3 +5743,587 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81905402b43494f6bc2ca08f1144b50') in 0,012016 seconds 
 Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 37,312309 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20892cc4bd88fc25f938341ae4ca85bf') in 0,009240 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6,297326 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d471c5208528cc70e54bd29ad41aa5f') in 0,010748 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 6,308096 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d691e914a6cd00ed6391bf85ddd27') in 0,012886 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6,786321 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521fbc043dbede4e6217bff25af973b0') in 0,009411 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,115210 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2e9720032e165a304d271a7051a736') in 0,011838 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 7,752546 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2e1368e59d58667ef2b3b3b24cc177') in 0,011674 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,174918 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5003e71c981e6629f203ba08bd1d27') in 0,010858 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,724509 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a414256f10e3619ddf20b43ffe9aeb5c') in 0,009351 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,899592 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554ebf80e88d197fcd0f24f714bd4680') in 0,014672 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,521367 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c077ee9aa2f30e7cb81eb52cf49c9d5') in 0,008174 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,298647 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb249b74de6ae08228196a67995f1a') in 0,014269 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,182422 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4018c161b5a5f355a03e12d14e4712d7') in 0,009140 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,005127 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55011e20693399d89034605016f087b7') in 0,010402 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,684746 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b190179b8988d2ca78d10b599f08126') in 0,009257 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,092604 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2740228bf5fa1178d09152f8856cc72') in 0,013832 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,134235 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83610f932d4d4b6db5681030d912515b') in 0,015647 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,984252 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a328c77179a8c7e99248de8167855311') in 0,013577 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,032114 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f8bd4a9ad2d215a4f9e9f35759a635') in 0,008557 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,624128 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b082d81cd2143bae4bb8b1ab91ad5e') in 0,013920 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6,091922 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b665bacffa921cf3f479281ed3ffd49') in 0,009184 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6,682254 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f7f81e1ac4db24c80667673396ee57') in 0,008058 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,254944 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d6bda4268b58e3c3c59af6749286c4') in 0,010455 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0,893293 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d14cd50767950c13d7b7de0aa9d951') in 0,010085 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,545423 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9baf689212cb04594ae66595ba1953') in 0,009140 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,176257 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4c72483da9fa4c62474bd23c011a34') in 0,010739 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 9,415827 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815e8ead1f8909e888430493cc87d557') in 0,017709 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6,176537 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7895aa32f353595a0f5e070588e22e') in 0,007684 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,020562 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab360999c5d355f6c72ec70e569c20e') in 0,018697 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,547174 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f545572b2b5d6ea1c94539347b1c11b0') in 0,009848 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,837039 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e50d8f3407ce965866ceb4814458b1a') in 0,016841 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6,954667 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5757ff116e132a6fadc45b30ef39e282') in 0,010535 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,000140 seconds.
+  path: Assets/Prefabs/Bullets/Armored car bullet.prefab
+  artifactKey: Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Armored car bullet.prefab using Guid(a2b1f45226c19b29184cf3ba166a077a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eff6c1ba3ae9add8bfda4fdef486122') in 0,009167 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 13,562029 seconds.
+  path: Assets/Prefabs/Bullets/Bandit bullet.prefab
+  artifactKey: Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Bandit bullet.prefab using Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04bbaa1c3d11c28346d363b362cb0982') in 0,016674 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 6,720739 seconds.
+  path: Assets/Prefabs/Bullets/Bandit bullet.prefab
+  artifactKey: Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Bandit bullet.prefab using Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b940fce0d7d0fe2bb56f4d5b5161b402') in 0,011263 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,652888 seconds.
+  path: Assets/Prefabs/Bullets/Bandit bullet.prefab
+  artifactKey: Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Bandit bullet.prefab using Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4ca037247f661eb21982eae1c8d94b') in 0,015683 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,037589 seconds.
+  path: Assets/Prefabs/Bullets/Bandit bullet.prefab
+  artifactKey: Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Bandit bullet.prefab using Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12caccd030179bf39f03eca0d683bcc0') in 0,011703 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,429902 seconds.
+  path: Assets/Prefabs/Bullets/Bandit bullet.prefab
+  artifactKey: Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Bandit bullet.prefab using Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ac4e43a4f5bbce925869f00a27c1e') in 0,010432 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,011555 seconds.
+  path: Assets/Prefabs/Bullets/Bandit bullet.prefab
+  artifactKey: Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Bandit bullet.prefab using Guid(0236e7eed4f631cecb6c721710720855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ca5ee7620f3276e606db2867f8fbe2') in 0,009985 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 14,962167 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac58a87bfd04dffd08bb7021056e06e0') in 0,010748 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 7,379936 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27d3ee595b4352cd5bf32e273f1db55') in 0,010181 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2,743470 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec83f94f0c8ee31717b0e8d449c217b3') in 0,010348 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,516494 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f280d33fb3d241007c1a1f42fa29ede4') in 0,014006 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,426667 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc173d309e04db55e9741f6a343c2aeb') in 0,016268 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,552905 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e0fabce5003dbaab6be289f1154592') in 0,015447 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,880266 seconds.
+  path: Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab
+  artifactKey: Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Cyberpsycho bullet.prefab using Guid(017dbd56928a8b1bb94032061df71fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a5a7cd79f002f8566cf0c81474a634') in 0,008885 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 13,839584 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1e58d901f2d932037544c269d36cf5') in 0,011462 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 17,345750 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2886d6441be01cabcaa189f280a929') in 0,014915 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 11,809731 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce629a39138b32267abc9a7e7103009') in 0,011686 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,356075 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f3cbd8c7be7f34981eeff1805f569') in 0,007337 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,396597 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a638ca2ac8871eae5bbf9e74aac93ee') in 0,010979 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,507586 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bfdbf8c400ed7e71c1d41f48908eab') in 0,008717 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,728505 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34d384cd5f9bc9c8c2c92c070a40ac') in 0,006829 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,086508 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ff2f388e8010991ca67355df48b177') in 0,015860 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0,597850 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95732f0a9ad78cd4269b4596d55a73ba') in 0,014564 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0,600248 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70230cc81898cada3465d314fd9bb8c4') in 0,010424 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 4,465793 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3174f2c8a51017cbcad36a193a33fc4c') in 0,016624 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,806558 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e4257607499a26073c042ea1ee0950') in 0,013445 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,053025 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655f20ef47ca75d1e40b79ff1223380b') in 0,009400 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,178442 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7032205f8daa3c5405d09cdd1f02359e') in 0,007780 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,971762 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7de939222f1bda4aeb520f424f7e639') in 0,011910 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,721031 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161e61ce98a27b066d29327e02c5b5ab') in 0,010969 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,241266 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bece7ba4b941d39142272029bd64caf') in 0,011458 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 11,102387 seconds.
+  path: Assets/Prefabs/Bullets/Drone bullet.prefab
+  artifactKey: Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Drone bullet.prefab using Guid(f31d776f8bcd38f8e8fa005e2e05452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2ae3a2be9444f5effdb4d7ed8e241') in 0,008871 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 10,137469 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80585b0cff0e5768df1188e24b27e92') in 0,008538 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4,013736 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91f4de23a27054f6f986bcf3349a3ab') in 0,008317 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5,345276 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a24475fa5232b224ba1c757369411b2') in 0,014489 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,083847 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33977ee48edea8c9b6c4af84633ad4d') in 0,012318 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 1,862571 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5398e63b9f698769e9a4828c877c0af8') in 0,010315 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,422533 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84095f3fc923522285b6e9f23cf8a1b1') in 0,009255 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 5,250291 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22eaa9cb0db17b492de6f750e052a11d') in 0,010119 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,715860 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5c7e15c5670df2df76f0d9773de5b6') in 0,006747 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 3,146220 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5e42ad89b3b4f7f719dc189bb4bf4e') in 0,013550 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2,720659 seconds.
+  path: Assets/Prefabs/Bullets/Max-Tac bullet.prefab
+  artifactKey: Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Bullets/Max-Tac bullet.prefab using Guid(2e836f0edbccbb027a83736621530a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6bfdac0878fd29f8f64951ed62dfb0') in 0,010911 seconds 
+Number of asset objects unloaded after import = 13
