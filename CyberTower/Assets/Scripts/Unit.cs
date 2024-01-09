@@ -11,6 +11,7 @@ public class Unit : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private Vector2 _stoppedDistance = new (4f, 12f);
+    public float spawnY;
     private float _randomStoppedDistance;
     [SerializeField] private bool _isFlying;
     [SerializeField, EnableIf("_isFlying")] private float _flyHeight;
@@ -45,24 +46,27 @@ public class Unit : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_game.tower.position.x - transform.position.x > _randomStoppedDistance)
+        if (_game.State == GameState.Play)
         {
-            Vector3 position = transform.position;
-            Vector2 target = new Vector2(_game.tower.position.x, position.y);
-            position = Vector3.MoveTowards(position, target, _speed * Time.deltaTime);
-            transform.position = position;
-        }
-        else
-        {
-            _timeReload -= Time.deltaTime;
-            if (_timeReload <= 0 && _isDied == false)
+            if (_game.tower.position.x - transform.position.x > _randomStoppedDistance)
             {
-                _animator.SetTrigger("Attack");
-                _timeReload = _defaultTimeReload;
+                Vector3 position = transform.position;
+                Vector2 target = new Vector2(_game.tower.position.x, position.y);
+                position = Vector3.MoveTowards(position, target, _speed * Time.deltaTime);
+                transform.position = position;
             }
+            else
+            {
+                _timeReload -= Time.deltaTime;
+                if (_timeReload <= 0 && _isDied == false)
+                {
+                    _animator.SetTrigger("Attack");
+                    _timeReload = _defaultTimeReload;
+                }
+            }
+            
+            _animator.SetFloat("Speed", _game.tower.position.x - transform.position.x > _randomStoppedDistance ? 1 : 0);
         }
-        
-        _animator.SetFloat("Speed", _game.tower.position.x - transform.position.x > _randomStoppedDistance ? 1 : 0);
     }
 
     private void Attack()

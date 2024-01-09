@@ -34,7 +34,6 @@ public class Enemy : MonoBehaviour
     private void Update()
     {
         Collider2D[] units = Physics2D.OverlapCircleAll(transform.position, _attackRadius, _unitMask);
-        print(units.Length);
         
         if (units.Length > 0 && _currentUnitCount == -1)
         {

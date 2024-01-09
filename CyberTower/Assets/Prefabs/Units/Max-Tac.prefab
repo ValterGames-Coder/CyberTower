@@ -407,6 +407,7 @@ MonoBehaviour:
   _speed: 3
   _rigidbody: {fileID: 7682095063564159114}
   _stoppedDistance: {x: 6, y: 8}
+  spawnY: -7.5
   _isFlying: 0
   _flyHeight: 0
   _damage: 3

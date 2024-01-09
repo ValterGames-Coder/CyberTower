@@ -10,6 +10,12 @@ public enum GameState
 
 public class GameManager : MonoBehaviour
 {
-    public GameState State;
+    public GameState State = GameState.Wait;
     public Transform tower;
+    public int currentLevel;
+
+    public void PlayWave()
+    {
+        State = GameState.Play;
+    }
 }
