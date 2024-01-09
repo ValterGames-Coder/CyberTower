@@ -469,7 +469,7 @@ MonoBehaviour:
   _isFlying: 0
   _flyHeight: 0
   _damage: 2
-  _bulletSpeed: 7
+  _bulletSpeed: 8
   _defaultTimeReload: 1.5
   _spread: 3
   _bulletPrefab: {fileID: 3987650251748668389, guid: 0236e7eed4f631cecb6c721710720855, type: 3}

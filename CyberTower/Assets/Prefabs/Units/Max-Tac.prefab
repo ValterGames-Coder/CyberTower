@@ -411,7 +411,7 @@ MonoBehaviour:
   _isFlying: 0
   _flyHeight: 0
   _damage: 3
-  _bulletSpeed: 8
+  _bulletSpeed: 15
   _defaultTimeReload: 2
   _spread: 1.3
   _bulletPrefab: {fileID: 1985770964712078720, guid: 2e836f0edbccbb027a83736621530a9c, type: 3}

@@ -1,9 +1,12 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class UnitSpawner : MonoBehaviour
 {
     [SerializeField] private List<Unit> _units;
+    [SerializeField] private List<UnitSpawnButton> _unitButtons;
     private Unit _currentUnit;
     private Camera _camera;
     private GameManager _gameManager;
@@ -16,6 +19,11 @@ public class UnitSpawner : MonoBehaviour
         _camera = Camera.main;
         _gameManager = FindObjectOfType<GameManager>();
         _isMobile = Application.isMobilePlatform || Application.platform == RuntimePlatform.WebGLPlayer;
+
+        foreach (UnitSpawnButton unitSpawnButton in _unitButtons)
+        {
+            unitSpawnButton.unit = _units[_unitButtons.IndexOf(unitSpawnButton)];
+        }
     }
 
     public void SetUnit(Unit unit)
@@ -29,6 +37,7 @@ public class UnitSpawner : MonoBehaviour
         _spawnPosition = new Vector2(_camera.ScreenToWorldPoint(position.position).x, _currentUnit.spawnY);
         Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
         _currentUnit = null;
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     private void Spawn(Vector2 position)
@@ -37,6 +46,7 @@ public class UnitSpawner : MonoBehaviour
         _spawnPosition = new Vector2(position.x, _currentUnit.spawnY);
         Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
         _currentUnit = null;
+        EventSystem.current.SetSelectedGameObject(null);
     }
 
     private void SetUnit(int unitId)
@@ -46,17 +56,23 @@ public class UnitSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (_currentUnit != null && Input.GetMouseButtonDown(0) && _isMobile == false)
+        if (_isMobile == false)
         {
-            Vector2 mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
-            Spawn(mousePosition);
-        }
 
-        if (Input.anyKey)
-        {
-            if (_numbers.Contains(Input.inputString))
+            if (_currentUnit != null && Input.GetMouseButtonDown(0))
             {
-                SetUnit(int.Parse(Input.inputString) - 1);
+                Vector2 mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
+                Spawn(mousePosition);
+            }
+
+            if (Input.anyKey)
+            {
+                if (_numbers.Contains(Input.inputString))
+                {
+                    int id = int.Parse(Input.inputString) - 1;
+                    SetUnit(id);
+                    EventSystem.current.SetSelectedGameObject(_unitButtons[id].gameObject);
+                }
             }
         }
     }
