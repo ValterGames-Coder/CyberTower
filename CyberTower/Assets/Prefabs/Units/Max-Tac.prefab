@@ -406,8 +406,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 3
   _rigidbody: {fileID: 7682095063564159114}
-  _stoppedDistance: {x: 6, y: 8}
-  spawnY: -7.5
+  _stoppedDistance: {x: 6, y: 8.5}
+  spawnY: -7
   _isFlying: 0
   _flyHeight: 0
   _damage: 3
@@ -417,6 +417,8 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 1985770964712078720, guid: 2e836f0edbccbb027a83736621530a9c, type: 3}
   _spawnPoint: {fileID: 5459420272129812457}
   _animator: {fileID: 7682095063564159118}
+  price: 120
+  avatar: {fileID: 1882785572, guid: c36b0ecb2ef41a1ea8498320898dbf92, type: 3}
 --- !u!114 &-4060054570694635951
 MonoBehaviour:
   m_ObjectHideFlags: 0

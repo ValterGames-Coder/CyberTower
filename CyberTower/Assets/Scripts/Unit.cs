@@ -1,11 +1,9 @@
-using System;
 using UnityEngine;
 using NaughtyAttributes;
-using Random = UnityEngine.Random;
 
 [RequireComponent(
     typeof(Rigidbody2D),
-    typeof(BoxCollider2D),
+    typeof(Collider2D),
     typeof(Health))]
 public class Unit : MonoBehaviour
 {
@@ -28,6 +26,10 @@ public class Unit : MonoBehaviour
     [SerializeField] private Transform _spawnPoint;
     
     [SerializeField] private Animator _animator;
+    
+    public int price;
+    public Sprite avatar;
+    
     private GameManager _gameManager;
     private bool _isDied;
     private Health _health;
@@ -99,8 +101,6 @@ public class Unit : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-        _gameManager.CheckUnits(gameObject);
-    }
+    private void OnDestroy() => _gameManager.DeleteAndCheckUnits(gameObject);
+    
 }

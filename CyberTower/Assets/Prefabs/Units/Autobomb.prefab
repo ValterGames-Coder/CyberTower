@@ -207,7 +207,7 @@ MonoBehaviour:
   _speed: 5
   _rigidbody: {fileID: 4262972068410966670}
   _stoppedDistance: {x: 2, y: 3}
-  spawnY: -7.5
+  spawnY: -7
   _isFlying: 0
   _flyHeight: 0
   _damage: 4
@@ -217,6 +217,8 @@ MonoBehaviour:
   _bulletPrefab: {fileID: 2869925290093653388, guid: 2cbe1bee9adcbe8bdbcd06c5271c646a, type: 3}
   _spawnPoint: {fileID: 4262972068410966665}
   _animator: {fileID: 4262972068410966666}
+  price: 20
+  avatar: {fileID: -1238916786, guid: 7bfd0ab9bff7408e4944540a00277802, type: 3}
 --- !u!114 &-3808146211937268763
 MonoBehaviour:
   m_ObjectHideFlags: 0

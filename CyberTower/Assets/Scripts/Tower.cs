@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class Tower : MonoBehaviour
@@ -11,6 +10,6 @@ public class Tower : MonoBehaviour
         _health = GetComponent<Health>();
         _gameManager = FindObjectOfType<GameManager>();
 
-        _health.OnDied += () => _gameManager.SetState(GameState.Win);
+        _health.OnDied += () => _gameManager.WinGame();
     }
 }
