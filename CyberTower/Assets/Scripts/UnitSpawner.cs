@@ -34,8 +34,8 @@ public class UnitSpawner : MonoBehaviour
             Debug.Log(_gameManager.CurrentLevel);
             if (_gameManager.CurrentLevel > item)
             {
-                _unitButtons[item].gameObject.SetActive(true);
                 _unitButtons[item].unit = _units[item];
+                _unitButtons[item].gameObject.SetActive(true);
             }
         }
     }

@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
@@ -13,11 +11,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform _spawnPoint;
     [SerializeField] private float _attackRadius;
     [SerializeField] private LayerMask _unitMask;
-    [SerializeField] private Transform _hand;
     private int _currentUnitCount = -1;
     private Collider2D _currentUnit;
-
-    [SerializeField] private Animator _animator;
     private GameManager _game;
 
     private void Start()
@@ -44,14 +39,15 @@ public class Enemy : MonoBehaviour
         if (_currentUnit != null)
         {
             Vector3 direction = transform.position - _currentUnit.transform.position;
-            var rot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
-            Quaternion rotation = Quaternion.Euler(0, 0, rot + Random.Range(-_spread, _spread));
-            _spawnPoint.rotation = rotation;
+            var rot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            Quaternion rotation = Quaternion.Euler(0, 0, rot);
+            //_spawnPoint.rotation = rotation;
+            transform.rotation = rotation;
                     
             _timeReload -= Time.deltaTime;
             if (_timeReload <= 0)
             {
-                _animator.SetTrigger("Attack");
+                Attack();
                 _timeReload = _defaultTimeReload;
             }
         }

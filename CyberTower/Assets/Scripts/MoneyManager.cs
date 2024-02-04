@@ -16,7 +16,7 @@ public class MoneyManager : MonoBehaviour
         money = PlayerPrefs.GetInt("Money");
         if (_debugMoney != -1)
             money = _debugMoney;
-        _moneyText.text = $"Money {money}";
+        _moneyText.text = $"{money}";
     }
     
     public bool CheckUnitPrice(Unit unit) => money >= unit.price;
@@ -24,7 +24,7 @@ public class MoneyManager : MonoBehaviour
     public void BuyUnit(Unit unit)
     {
         money -= unit.price;
-        _moneyText.text = $"Money {money}";
+        _moneyText.text = $"{money}";
         OnChangeMoney?.Invoke();
     }
 }

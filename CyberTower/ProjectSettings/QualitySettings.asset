@@ -193,7 +193,6 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms:
-    - WebGL
     - Android
     - Server
   - serializedVersion: 2
@@ -233,7 +232,6 @@ QualitySettings:
     resolutionScalingFixedDPIFactor: 1
     customRenderPipeline: {fileID: 11400000, guid: 681886c5eb7344803b6206f758bf0b1c, type: 2}
     excludedTargetPlatforms:
-    - WebGL
     - Android
     - Server
   m_PerPlatformDefaultQuality:

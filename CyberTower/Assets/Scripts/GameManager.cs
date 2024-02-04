@@ -42,7 +42,6 @@ public class GameManager : MonoBehaviour
             CurrentLevel = _debugLevel;
         }
         OnLoadLevel?.Invoke();
-        OnWaitWave?.Invoke();
     }
 
     public void SetState(GameState state) => State = state;
@@ -73,7 +72,7 @@ public class GameManager : MonoBehaviour
                 State = GameState.Wait;
                 OnWaitWave?.Invoke();
                 CurrentWave++;
-                _waveText.text = $"Wave {CurrentWave}";
+                _waveText.text = $"{CurrentWave}";
             }
         }
     }
