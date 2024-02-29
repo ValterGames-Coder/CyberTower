@@ -371,6 +371,8 @@
 "Assets/Scripts/Health.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/MoneyManager.cs"
+"Assets/Scripts/SceneMover.cs"
+"Assets/Scripts/Settings.cs"
 "Assets/Scripts/TextHelper.cs"
 "Assets/Scripts/Tower.cs"
 "Assets/Scripts/Unit.cs"

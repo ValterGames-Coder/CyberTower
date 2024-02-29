@@ -29,13 +29,23 @@ public class UnitSpawner : MonoBehaviour
 
     private void EnableButtons()
     {
-        for (int item = 0; item < _unitButtons.Count; item++)
+        if (_gameManager.CurrentLevel < 2)
         {
-            Debug.Log(_gameManager.CurrentLevel);
-            if (_gameManager.CurrentLevel > item)
+            _unitButtons[0].gameObject.SetActive(true);
+            _unitButtons[0].unit = _units[0];
+            _unitButtons[1].gameObject.SetActive(true);
+            _unitButtons[1].unit = _units[1];
+        }
+        else
+        {
+            for (int item = 0; item < _unitButtons.Count; item++)
             {
-                _unitButtons[item].unit = _units[item];
-                _unitButtons[item].gameObject.SetActive(true);
+                Debug.Log(_gameManager.CurrentLevel);
+                if (_gameManager.CurrentLevel + 1 > item)
+                {
+                    _unitButtons[item].unit = _units[item];
+                    _unitButtons[item].gameObject.SetActive(true);
+                }
             }
         }
     }

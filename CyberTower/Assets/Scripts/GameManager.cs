@@ -13,9 +13,11 @@ public enum GameState
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private Transform _tower;
+    [SerializeField] private List<Transform> _towers;
+    private Transform _tower;
     [SerializeField] private int _debugLevel;
     [SerializeField] private TMP_Text _waveText;
+    [SerializeField] private GameObject _panel;
 
     private MoneyManager _moneyManager;
     
@@ -35,12 +37,15 @@ public class GameManager : MonoBehaviour
     {
         _moneyManager = FindObjectOfType<MoneyManager>();
         if(!PlayerPrefs.HasKey("Level"))
-            PlayerPrefs.SetInt("Level", 2);
+            PlayerPrefs.SetInt("Level", 0);
         CurrentLevel = PlayerPrefs.GetInt("Level");
         if (_debugLevel != -1)
         {
             CurrentLevel = _debugLevel;
         }
+        print(CurrentLevel);
+        _tower = _towers[CurrentLevel];
+        _tower.gameObject.SetActive(true);
         OnLoadLevel?.Invoke();
     }
 
@@ -48,14 +53,18 @@ public class GameManager : MonoBehaviour
 
     public void WinGame()
     {
+        print("Win");
         State = GameState.Win;
         OnWin?.Invoke();
+        _panel.SetActive(true);
+        PlayerPrefs.SetInt("Level", CurrentLevel + 1);
     }
     
     private void LoseGame()
     {
         State = GameState.Lose;
         OnLose?.Invoke();
+        _panel.SetActive(true);
     }
 
     public void DeleteAndCheckUnits(GameObject unit)
@@ -69,10 +78,13 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                State = GameState.Wait;
-                OnWaitWave?.Invoke();
-                CurrentWave++;
-                _waveText.text = $"{CurrentWave}";
+                if (State != GameState.Lose || State != GameState.Win)
+                {
+                    State = GameState.Wait;
+                    OnWaitWave?.Invoke();
+                    CurrentWave++;
+                    _waveText.text = $"{CurrentWave}";
+                }
             }
         }
     }

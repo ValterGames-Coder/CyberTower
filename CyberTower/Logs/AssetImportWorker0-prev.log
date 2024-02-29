@@ -24,7 +24,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-46591
+45063
 Successfully changed project path to: /home/valter/Projects/Unity/CyberTower/CyberTower
 /home/valter/Projects/Unity/CyberTower/CyberTower
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /home/valter/Projects/Unity/CyberTower/Cyb
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139788058997632] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 477315780 [EditorId] 477315780 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140094358676352] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 3395206315 [EditorId] 3395206315 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [139788058997632] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 477315780 [EditorId] 477315780 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140094358676352] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 3395206315 [EditorId] 3395206315 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 143,49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 173,68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
 [Subsystems] Discovering subsystems at path /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -82,19 +82,19 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
 _multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -637333672
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1764397272
 Initialize mono
 Mono path[0] = '/home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
 Mono path[1] = '/home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56750
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56485
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,008160 seconds.
+Registered in 0,009635 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -116,32 +116,32 @@ Win32Exception: ApplicationName='/home/valter/Unity/Hub/Editor/2021.3.33f1/Edito
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Utils/Program.cs Line: 48)
 
-Refreshing native plugins compatible for Editor in 151,23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 153,58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,590 seconds
+- Completed reload, in  1,846 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1591ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1302ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (1499ms)
+			LoadAssemblies (138ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (150ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (1009ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1182ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (484ms)
+				InitializePlatformSupportModulesInManaged (629ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (151ms)
+				RefreshPlugins (154ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,56 +151,56 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Registering precompiled user dll's ...
-Registered in 0,002179 seconds.
+Registered in 0,002201 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 161,32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 160,77 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 UpdateMenuTitleForLanguage: 10
 Mono: successfully reloaded assembly
-- Completed reload, in  2,456 seconds
+- Completed reload, in  2,811 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2458ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (2816ms)
+		BeginReloadAssembly (214ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (2073ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2407ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
+			SetupTypeCache (410ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (1312ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1517ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (103ms)
+				InitializePlatformSupportModulesInManaged (122ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (161ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (616ms)
-				ProcessInitializeOnLoadMethodAttributes (234ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (681ms)
+				ProcessInitializeOnLoadMethodAttributes (343ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1,19 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1,30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 5479 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (0,5 MB). Loaded Objects now: 5936.
-Memory consumption went from 211,3 MB to 210,8 MB.
-Total: 11,626967 ms (FindLiveObjects: 0,935524 ms CreateObjectMapping: 0,711334 ms MarkObjects: 9,367532 ms  DeleteObjects: 0,600495 ms)
+Unloading 5482 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0,5 MB). Loaded Objects now: 5939.
+Memory consumption went from 211,5 MB to 211,0 MB.
+Total: 7,075271 ms (FindLiveObjects: 0,618793 ms CreateObjectMapping: 0,279225 ms MarkObjects: 5,412280 ms  DeleteObjects: 0,752749 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -215,10 +215,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22739,177419 seconds.
-  path: Assets/Scenes/MenuScene.unity
-  artifactKey: Guid(91fe7fb18436d4a9a8ecfd3017ef4f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 362500,786902 seconds.
+  path: Assets/Audio/CyberTower_Soundtrack2.flp
+  artifactKey: Guid(fe2bbeb8dbefd8fa9a42871d09a5d7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/MenuScene.unity using Guid(91fe7fb18436d4a9a8ecfd3017ef4f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365a536f48aa8c2bde1c1f5078601bab') in 0,010996 seconds 
-Number of asset objects unloaded after import = 0
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Start importing Assets/Audio/CyberTower_Soundtrack2.flp using Guid(fe2bbeb8dbefd8fa9a42871d09a5d7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50697e86a65b104fd5f20dbd8f1aca7') in 0,031293 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000027 seconds.
+  path: Assets/Audio/CyberTower_Soundtrack1.mp3
+  artifactKey: Guid(e63cd65deb16234fbbe2b3cdffd50e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/CyberTower_Soundtrack1.mp3 using Guid(e63cd65deb16234fbbe2b3cdffd50e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340bc59629bdae463479c38349f4bcfa') in 0,000900 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000022 seconds.
+  path: Assets/Audio/CyberTower_Soundtrack2.mp3
+  artifactKey: Guid(a59e7d9fbc89f6933aea2292d48de4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/CyberTower_Soundtrack2.mp3 using Guid(a59e7d9fbc89f6933aea2292d48de4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02afe4c3fa3a30c8008b852c14a6907') in 0,000831 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000024 seconds.
+  path: Assets/Audio/CyberTower_Soundtrack1.flp
+  artifactKey: Guid(ee145e3cbbe1b8973b8e66f1c3f1e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Audio/CyberTower_Soundtrack1.flp using Guid(ee145e3cbbe1b8973b8e66f1c3f1e6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e76d67527c789e61936290bf01ed9b') in 0,000823 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22,497119 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(1c9d4a282fbd50fe6b6b5d7bb12522a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Enemy.prefab using Guid(1c9d4a282fbd50fe6b6b5d7bb12522a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0c47b7dd5aa1bf6db63e12b103e431') in 0,563073 seconds 
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0,457496 seconds.
+  path: Assets/Prefabs/Units/Armored car.prefab
+  artifactKey: Guid(3c2c5f8b922fb0a7fb5f7a48b5637e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Units/Armored car.prefab using Guid(3c2c5f8b922fb0a7fb5f7a48b5637e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379668cee1600e41d6d066d2a499fc6d') in 0,065400 seconds 
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 0,000027 seconds.
+  path: Assets/Prefabs/Units/Bandit.prefab
+  artifactKey: Guid(604b0d1609e7f643bbc49643b7ead4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Units/Bandit.prefab using Guid(604b0d1609e7f643bbc49643b7ead4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881fdf87af0720896783fcb016228149') in 0,017948 seconds 
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0,000026 seconds.
+  path: Assets/Prefabs/Units/Drone.prefab
+  artifactKey: Guid(191f57ed50a730d6eb7801df69657c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Units/Drone.prefab using Guid(191f57ed50a730d6eb7801df69657c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3cba4befd81a0a4c183047961a61e5') in 0,015376 seconds 
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0,000028 seconds.
+  path: Assets/Prefabs/Units/Cyberpsysho.prefab
+  artifactKey: Guid(9f7360946db92f78bb31e925b2b33276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Units/Cyberpsysho.prefab using Guid(9f7360946db92f78bb31e925b2b33276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6a22b3b434f545dfd6c39ef079fc85') in 0,014673 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0,000034 seconds.
+  path: Assets/Prefabs/Units/Max-Tac.prefab
+  artifactKey: Guid(600a28a185db9d45da3ccf0edae340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Units/Max-Tac.prefab using Guid(600a28a185db9d45da3ccf0edae340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce40a050f92a1b5708eb21a58666b7e5') in 0,018353 seconds 
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Import Request.
+  Time since last request: 0,000048 seconds.
+  path: Assets/Prefabs/Units/Autobomb.prefab
+  artifactKey: Guid(b0d7a9cd5602e0b318c08d06c2f74b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Units/Autobomb.prefab using Guid(b0d7a9cd5602e0b318c08d06c2f74b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4f6b33ad845f2b221f832e3cf293d8') in 0,014135 seconds 
+Number of asset objects unloaded after import = 55

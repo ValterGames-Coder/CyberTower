@@ -17,6 +17,7 @@ public class Health : MonoBehaviour
         {
             _health = 0;
             OnDied?.Invoke();
+            print("On Died");
         }
     }
 }
