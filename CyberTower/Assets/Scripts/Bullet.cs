@@ -6,12 +6,14 @@ public class Bullet : MonoBehaviour
     private float _damage;
     private string _who;
     private float _timeLife;
+    private GameObject _hit;
     
-    public void Init(float speed, float damage, string who)
+    public void Init(float speed, float damage, string who, GameObject hit)
     {
         _speed = speed;
         _damage = damage;
         _who = who;
+        _hit = hit;
     }
 
     private void FixedUpdate()
@@ -28,6 +30,8 @@ public class Bullet : MonoBehaviour
         {
             Health towerHealth = other.GetComponent<Health>();
             towerHealth.TakeDamage(_damage);
+            if (_hit != null)
+                Instantiate(_hit, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }
