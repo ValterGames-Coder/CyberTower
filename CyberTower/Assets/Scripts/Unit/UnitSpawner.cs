@@ -1,8 +1,7 @@
 using System.Collections.Generic;
-using InstantGamesBridge;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using DeviceType = InstantGamesBridge.Modules.Device.DeviceType;
+using YG;
 
 public class UnitSpawner : MonoBehaviour
 {
@@ -26,8 +25,8 @@ public class UnitSpawner : MonoBehaviour
         _gameManager.OnPlayWave += () => SetUnit(null);
         _moneyManager = FindObjectOfType<MoneyManager>();
         _camera = Camera.main;
-        _isMobile = Bridge.device.type == DeviceType.Mobile || 
-                    Bridge.device.type == DeviceType.Tablet;
+        _isMobile = YandexGame.EnvironmentData.deviceType == "mobile" ||
+                    YandexGame.EnvironmentData.deviceType == "tablet";
     }
 
     private void EnableButtons()
@@ -66,6 +65,7 @@ public class UnitSpawner : MonoBehaviour
         _spawnPosition = new Vector2(position.x, _currentUnit.spawnY);
         Unit newUnit = Instantiate(_currentUnit, _spawnPosition, Quaternion.identity);
         _gameManager.units.Add(newUnit.gameObject);
+        _gameManager.CheckUnits();
         _moneyManager.BuyUnit(newUnit);
         _gameManager.BuySouls(newUnit.soul);
         _currentUnit = null;
@@ -98,10 +98,13 @@ public class UnitSpawner : MonoBehaviour
                 if (_numbers.Contains(Input.inputString))
                 {
                     int id = int.Parse(Input.inputString) - 1;
-                    if (_gameManager.CurrentLevel >= id && _moneyManager.CheckUnitPrice(_units[id]) || _gameManager.CheckSouls(_units[id]))
+                    if (_gameManager.CurrentLevel >= id)
                     {
-                        SetUnit(id);
-                        EventSystem.current.SetSelectedGameObject(_unitButtons[id].gameObject);
+                        if (_moneyManager.CheckUnitPrice(_units[id]) && _gameManager.CheckSouls(_units[id]))
+                        {
+                            SetUnit(id);
+                            EventSystem.current.SetSelectedGameObject(_unitButtons[id].gameObject);
+                        }
                     }
                 }
             }

@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
-using InstantGamesBridge;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using YG;
 
 public enum GameState
 {
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int _debugLevel;
     [SerializeField] private TMP_Text _soulsText;
     [SerializeField] private float _damageToSoul;
+    [SerializeField] private Button _attackButton;
     private float _towerDamage;
 
     private MoneyManager _moneyManager;
@@ -39,19 +41,29 @@ public class GameManager : MonoBehaviour
     public event Action OnWin; 
     public event Action OnLose;
     public event Action OnChangeSouls; 
+    
 
     private void Start()
     {
         _moneyManager = FindObjectOfType<MoneyManager>();
-        Bridge.storage.Get("Level", OnStorageGetCompleted);
+        if (YandexGame.SDKEnabled)
+        {
+            LoadLevel();
+        }
         _tower = _towers[CurrentLevel];
         _tower.gameObject.SetActive(true);
         _tower.GetComponent<Health>().OnDamage += damage => _towerDamage += damage;
-        _soulsText.text = souls.ToString();
         OnLoadLevel?.Invoke();
+        _soulsText.text = souls.ToString();
+    }
+
+    private void LoadLevel()
+    {
+        CurrentLevel = _debugLevel != -1 ? _debugLevel : YandexGame.savesData.level;
     }
 
     public bool CheckSouls(Unit unit) => souls >= unit.soul;
+    
 
     public void BuySouls(int remove)
     {
@@ -70,34 +82,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void OnStorageGetCompleted(bool success, string data)
-    {
-        // Загрузка произошла успешно
-        if (success)
-        {
-            if (data != null)
-            {
-                CurrentLevel = _debugLevel != -1 ? _debugLevel : int.Parse(data);
-                Debug.Log(data);
-            }
-            else
-            {
-                CurrentLevel = 0;
-            }
-        }
-        else
-        {
-            CurrentLevel = 0;
-        }
-    }
-
     public void SetState(GameState state) => State = state;
+
+    public void SecondLife()
+    {
+        SetState(GameState.Wait);
+        OnWaitWave?.Invoke();
+        OnChangeSouls?.Invoke();
+    }
 
     public void WinGame()
     {
         if (CurrentLevel != 5)
         {
-            Bridge.storage.Set("Level", CurrentLevel + 1, OnStorageSetCompleted);
+            YandexGame.savesData.level = CurrentLevel + 1;
+            YandexGame.SaveProgress();
         }
         else
         {
@@ -106,11 +105,6 @@ public class GameManager : MonoBehaviour
         print("Win");
         State = GameState.Win;
         OnWin?.Invoke();
-    }
-    
-    private void OnStorageSetCompleted(bool success)
-    {
-        Debug.Log($"Level, success: {success}");
     }
     
     private void LoseGame()
@@ -124,9 +118,15 @@ public class GameManager : MonoBehaviour
         units.Remove(unit);
         if (units.Count <= 0)
         {
-            if (_moneyManager.money <= 0)
+            CheckUnits();
+            souls += Mathf.RoundToInt(_towerDamage / _damageToSoul);
+            _towerDamage = 0;
+            _soulsText.text = souls.ToString();
+            OnChangeSouls?.Invoke();
+            if (_moneyManager.money < 10 || souls < 1)
             {
-                LoseGame();
+                if (State != GameState.Win)
+                    LoseGame();
             }
             else
             {
@@ -135,9 +135,6 @@ public class GameManager : MonoBehaviour
                     State = GameState.Wait;
                     OnWaitWave?.Invoke();
                     CurrentWave++;
-                    souls += Mathf.RoundToInt(_towerDamage / _damageToSoul);
-                    _towerDamage = 0;
-                    _soulsText.text = souls.ToString();
                 }
             }
         }
@@ -147,5 +144,10 @@ public class GameManager : MonoBehaviour
     {
         State = GameState.Play;
         OnPlayWave?.Invoke();
+    }
+
+    public void CheckUnits()
+    {
+        _attackButton.interactable = units.Count > 0;
     }
 }

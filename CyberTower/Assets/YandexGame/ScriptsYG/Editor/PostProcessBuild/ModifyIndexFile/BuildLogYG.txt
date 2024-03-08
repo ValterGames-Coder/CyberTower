@@ -1,0 +1,2 @@
+Build path: /home/valter/Projects/Unity/CyberTower/Builds/CyberTower 1.0.1  NoYandex
+Build number: 11

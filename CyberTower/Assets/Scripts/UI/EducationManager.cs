@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using InstantGamesBridge;
 using UnityEngine;
+using YG;
 
 public class EducationManager : MonoBehaviour
 {
@@ -10,17 +10,10 @@ public class EducationManager : MonoBehaviour
 
     private void Awake()
     {
-        Bridge.storage.Get("Education", OnComplete);
-    }
-
-    private void OnComplete(bool success, string data)
-    {
-        if (success)
+        if (YandexGame.SDKEnabled)
         {
-            if (data != null)
-            {
+            if(YandexGame.savesData.education)
                 gameObject.SetActive(false);
-            }
         }
     }
 
@@ -29,7 +22,8 @@ public class EducationManager : MonoBehaviour
         //_backButton.SetActive(_currentFrame + change >= 1);
         if (_currentFrame + change == _frames.Count)
         {
-            Bridge.storage.Set("Education", "true");
+            YandexGame.savesData.education = true;
+            YandexGame.SaveProgress();
             gameObject.SetActive(false);
         }
         else

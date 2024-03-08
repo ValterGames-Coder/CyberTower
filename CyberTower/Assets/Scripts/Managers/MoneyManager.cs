@@ -19,8 +19,14 @@ public class MoneyManager : MonoBehaviour
         }
     }
 
+    public void SecondLife()
+    {
+        OnChangeMoney?.Invoke();
+    }
+
     private void Start()
     {
+        FindObjectOfType<GameManager>().OnLoadLevel += () => _moneyText.text = $"{money}";
         if (_debugMoney != -1)
             money = _debugMoney;
         _moneyText.text = $"{money}";

@@ -1,9 +1,7 @@
-using System;
-using System.Collections.Generic;
-using InstantGamesBridge;
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
+using YG;
 
 public class SceneMover : MonoBehaviour
 {
@@ -12,33 +10,23 @@ public class SceneMover : MonoBehaviour
 
     public void PlayHistory(int sceneId)
     {
-        Bridge.storage.Get("History", OnComplete);
-    }
-
-    private void OnComplete(bool success, string data)
-    {
-        if (success)
+        if (YandexGame.SDKEnabled)
         {
-            if (data != null)
-            {
-                SceneManager.LoadScene(Int32.Parse(data));
-                Debug.Log(data);
-            }
+            if(YandexGame.savesData.history != 0)
+                SceneManager.LoadScene(YandexGame.savesData.history);
             else
             {
                 _director.Play();
-                Bridge.storage.Set("History", 1);
+                YandexGame.savesData.history = 1;
+                YandexGame.SaveProgress();
             }
-        }
-        else
-        {
-            Bridge.storage.Set("History", 1);
         }
     }
 
     public void TheEnd()
     {
-        List<string> keys = new List<string>() { "History", "Level" };
-        Bridge.storage.Delete(keys);
+        YandexGame.savesData.history = 0;
+        YandexGame.savesData.level = 0;
+        YandexGame.SaveProgress();
     }
 }

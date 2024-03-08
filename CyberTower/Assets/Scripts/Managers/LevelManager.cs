@@ -19,4 +19,10 @@ public class LevelManager : MonoBehaviour
         _moneyManager.SetMoney(_moneys[_gameManager.CurrentLevel]);
         _gameManager.SetSouls(_souls[_gameManager.CurrentLevel]);
     }
+
+    public void SecondLife()
+    {
+        _moneyManager.SetMoney(_moneys[_gameManager.CurrentLevel]);
+        _gameManager.SetSouls(_souls[_gameManager.CurrentLevel]);
+    }
 }

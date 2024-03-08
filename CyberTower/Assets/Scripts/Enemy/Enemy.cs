@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     private float _timeReload;
     [SerializeField] private float _spread;
     [SerializeField] private Bullet _bulletPrefab;
+    [SerializeField] private GameObject _hit;
     [SerializeField] private Transform _spawnPoint;
     [SerializeField] private EnemyRaycastZone _raycastZone;
     private AudioSource _audio;
@@ -24,7 +25,7 @@ public class Enemy : MonoBehaviour
     private void Attack()
     {
         Bullet bullet = Instantiate(_bulletPrefab, _spawnPoint.position, _spawnPoint.rotation);
-        bullet.Init(_bulletSpeed, _damage, "Unit", null);
+        bullet.Init(_bulletSpeed, _damage, "Unit", _hit);
         _audio.Play();
     }
 

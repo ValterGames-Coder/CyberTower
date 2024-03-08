@@ -34,5 +34,12 @@ public class Bullet : MonoBehaviour
                 Instantiate(_hit, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
+
+        if (other.CompareTag("Floor"))
+        {
+            if (_hit != null)
+                Instantiate(_hit, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 }

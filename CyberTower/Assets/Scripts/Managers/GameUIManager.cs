@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -32,14 +31,20 @@ public class GameUIManager : MonoBehaviour
     private void GameManagerOnOnWin()
     {
         _panel.SetActive(true);
+        _panelWin.SetActive(true);
         if(_gameManager.CurrentLevel != 0)
-            _panelWin.SetActive(true);
+            _panelIfWin.SetActive(true);
         if (_gameManager.CurrentLevel < 5)
         {
-            _panelIfWin.SetActive(true);
             _imageIfWin.sprite = _sprites[_gameManager.CurrentLevel + 1];
             _textIfWin.text = $"Получен новый боец:\n{_names[_gameManager.CurrentLevel+1]}";
         }
 
+    }
+
+    public void SecondLife()
+    {
+        _panel.SetActive(false);
+        _panelLose.SetActive(false);
     }
 }

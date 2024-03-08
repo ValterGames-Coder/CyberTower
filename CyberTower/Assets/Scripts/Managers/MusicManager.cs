@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using InstantGamesBridge;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using YG;
 using Random = UnityEngine.Random;
 
 public class MusicManager : MonoBehaviour
@@ -18,11 +18,12 @@ public class MusicManager : MonoBehaviour
         public List<AudioClip> tracks = new List<AudioClip>();
     }
     [SerializeField] private List<Clips> _clips;
-    private AudioListener _audioListener;
+    //private AudioListener _audioListener;
     [SerializeField] private float _timeAppearance;
     [SerializeField] private Toggle _musicToggle;
     private AudioSource _audio;
     private int index;
+    private int _musicVolume, _musicFocus, _musicPause;
     
     private void Awake()
     {
@@ -38,22 +39,28 @@ public class MusicManager : MonoBehaviour
     
     public void SetMusicVolume()
     {
-        _audioListener.enabled = _musicToggle.isOn;
-        Bridge.storage.Set("Music", _musicToggle.isOn ? "true" : "false");
+        //_audioListener.enabled = _musicToggle.isOn;
+        _musicVolume = _musicToggle.isOn ? 1 : 0;
+        YandexGame.savesData.music = _musicToggle.isOn ? 1 : 0;
+        YandexGame.SaveProgress();
     }
     
     private void Start()
     {
         _audio = GetComponent<AudioSource>();
-        _audioListener = FindObjectOfType<AudioListener>();
+        //_audioListener = FindObjectOfType<AudioListener>();
         SceneManager.activeSceneChanged += SceneManagerOnactiveSceneChanged;
-        Bridge.storage.Get("Music", OnMusicLoadComplete);
+        if (YandexGame.SDKEnabled)
+        {
+            if (_musicToggle != null)
+                _musicToggle.isOn = YandexGame.savesData.music == 1;
+            _musicVolume = YandexGame.savesData.music;
+        }
     }
 
     private void SceneManagerOnactiveSceneChanged(Scene arg0, Scene arg1)
     {
         index = arg1.buildIndex;
-        
         _audio.Stop();
     }
 
@@ -65,6 +72,7 @@ public class MusicManager : MonoBehaviour
             _audio.clip = _clips[index].tracks[clipIndex];
             _audio.Play();
         }
+        _audio.volume = _musicVolume * _musicFocus * _musicPause;
     }
 
     private void OnMusicLoadComplete(bool success, string data)
@@ -75,16 +83,26 @@ public class MusicManager : MonoBehaviour
             { 
                 if(_musicToggle != null)
                     _musicToggle.isOn = data == "true";
-                _audioListener.enabled = data == "true";
+                _musicVolume = data == "true" ? 1 : 0;
             }
             else
             {
-                _audioListener.enabled = true;
+                _musicVolume = 1;
             }
         }
         else
         {
-            _audioListener.enabled = true;
+            _musicVolume = 1;
         }
+    }
+
+    private void OnApplicationPause(bool pauseStatus)
+    {
+        _musicPause = pauseStatus ? 0 : 1;
+    }
+
+    private void OnApplicationFocus(bool hasFocus)
+    {
+        _musicFocus = hasFocus ? 1 : 0;
     }
 }

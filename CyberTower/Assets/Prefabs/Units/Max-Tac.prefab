@@ -487,16 +487,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28c51c068be5088098f0e56b6e6efc2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 3.5
   _rigidbody: {fileID: 7682095063564159114}
   _stoppedDistance: {x: 6, y: 8.5}
   spawnY: -7
   _isFlying: 0
   _flyHeight: 0
-  _damage: 3
-  _bulletSpeed: 15
+  _damage: 1
+  _bulletSpeed: 9
   _defaultTimeReload: 2
-  _spread: 1.3
+  _spread: 2.5
   _bulletPrefab: {fileID: 1985770964712078720, guid: 2e836f0edbccbb027a83736621530a9c, type: 3}
   _spawnPoint: {fileID: 5459420272129812457}
   _shootAudio: {fileID: 8300000, guid: 54e700cd6c92e4e2ba067e8cdc17faec, type: 3}
@@ -504,8 +504,8 @@ MonoBehaviour:
   _hit: {fileID: 6810902918765022689, guid: 1dc8e38e62f25e16594488bf8819f47e, type: 3}
   _animator: {fileID: 7682095063564159118}
   _audioSource: {fileID: -433208337978616587}
-  price: 120
-  soul: 2
+  price: 60
+  soul: 3
   avatar: {fileID: 1882785572, guid: c36b0ecb2ef41a1ea8498320898dbf92, type: 3}
 --- !u!114 &-4060054570694635951
 MonoBehaviour:
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3af109358ce64b4fbfd77697852ba9b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 100
+  _health: 90
 --- !u!82 &-433208337978616587
 AudioSource:
   m_ObjectHideFlags: 0
