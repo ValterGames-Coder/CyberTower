@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -21,6 +21,8 @@ public class MusicManager : MonoBehaviour
     //private AudioListener _audioListener;
     [SerializeField] private float _timeAppearance;
     [SerializeField] private Toggle _musicToggle;
+    private List<AudioSource> _worldSounds = new();
+    private List<float> _worldSoundsVolume = new();
     private AudioSource _audio;
     private int index;
     private int _musicVolume, _musicFocus, _musicPause;
@@ -68,11 +70,36 @@ public class MusicManager : MonoBehaviour
     {
         if (!_audio.isPlaying)
         {
+            _worldSounds = FindObjectsOfType<AudioSource>(false).ToList();
+            _worldSounds.Remove(_audio);
+            GetWorldSoundsVolume();
             int clipIndex = Random.Range(0, _clips[index].tracks.Count);
             _audio.clip = _clips[index].tracks[clipIndex];
             _audio.Play();
         }
         _audio.volume = _musicVolume * _musicFocus * _musicPause;
+    }
+
+    private void GetWorldSoundsVolume()
+    {
+        if (_worldSounds.Count > 0)
+        {
+            foreach (AudioSource worldSound in _worldSounds)
+            {
+                _worldSoundsVolume.Add(worldSound.volume);
+            }
+        }
+    }
+
+    private void ChangeVolume()
+    {
+        if (_worldSounds.Count > 0)
+        {
+            for (int i = 0; i < _worldSounds.Count; i++)
+            {
+                _worldSounds[i].volume = _worldSoundsVolume[i] * _musicFocus * _musicPause;
+            }
+        }
     }
 
     private void OnMusicLoadComplete(bool success, string data)
@@ -99,10 +126,12 @@ public class MusicManager : MonoBehaviour
     private void OnApplicationPause(bool pauseStatus)
     {
         _musicPause = pauseStatus ? 0 : 1;
+        ChangeVolume();
     }
 
     private void OnApplicationFocus(bool hasFocus)
     {
         _musicFocus = hasFocus ? 1 : 0;
+        ChangeVolume();
     }
 }

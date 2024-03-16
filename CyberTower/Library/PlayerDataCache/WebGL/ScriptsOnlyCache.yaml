@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - LevelManager
     - MoneyManager
     - MusicManager
+    - PauseManager
     - SceneMover
     - Settings
     - TextHelper
@@ -298,6 +299,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SceneMover
     methodName: MoveToScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: Pause
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -313,6 +317,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AdManager
     methodName: ShowRewardedAd
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseManager
+    methodName: Pause
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -444,6 +451,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 26728}
     - Class: 114
       Script: {instanceID: 27032}
+    - Class: 114
+      Script: {instanceID: 29558}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -2889,9 +2898,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a826ad33cb6c2c56c7f6126fe0e175a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseManager
   platform: 20
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
   - Assets/Scenes/GameScene.unity
   - Assets/Scenes/TheEndScene.unity
-  playerPath: /home/valter/Projects/Unity/CyberTower/Builds/CyberTower 1.0.1  NoYandex
+  playerPath: /home/valter/Projects/Unity/CyberTower/Builds/CyberTower 1.0.2

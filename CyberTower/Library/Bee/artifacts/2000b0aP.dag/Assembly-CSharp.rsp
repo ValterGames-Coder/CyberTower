@@ -309,6 +309,7 @@
 "Assets/Scripts/Managers/LevelManager.cs"
 "Assets/Scripts/Managers/MoneyManager.cs"
 "Assets/Scripts/Managers/MusicManager.cs"
+"Assets/Scripts/Managers/PauseManager.cs"
 "Assets/Scripts/SceneMover.cs"
 "Assets/Scripts/Settings.cs"
 "Assets/Scripts/Tower.cs"

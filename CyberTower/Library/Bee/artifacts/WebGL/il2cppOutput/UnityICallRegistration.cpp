@@ -542,6 +542,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_get_isPlaying();
 		Register_UnityEngine_AudioSource_get_isPlaying();
 
+		//System.Single UnityEngine.AudioSource::get_volume()
+		void Register_UnityEngine_AudioSource_get_volume();
+		Register_UnityEngine_AudioSource_get_volume();
+
 		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
 		void Register_UnityEngine_AudioSource_PlayHelper();
 		Register_UnityEngine_AudioSource_PlayHelper();

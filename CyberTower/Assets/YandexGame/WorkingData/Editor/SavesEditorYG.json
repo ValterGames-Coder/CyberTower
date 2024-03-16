@@ -1,5 +1,5 @@
 {
-    "idSave": 146,
+    "idSave": 2,
     "isFirstSession": false,
     "language": "ru",
     "promptDone": false,
@@ -10,7 +10,7 @@
         true,
         false
     ],
-    "level": 5,
+    "level": 0,
     "music": 1,
     "renderVolume": true,
     "history": 1,

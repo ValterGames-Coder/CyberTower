@@ -4,6 +4,10 @@ using YG;
 public class AdManager : MonoBehaviour
 {
     [SerializeField] private GameObject _secondLifePanel;
+    private LevelManager _levelManager;
+    private GameManager _gameManager;
+    private GameUIManager _gameUIManager;
+    private MoneyManager _moneyManager;
 
     private void OnEnable()
     {
@@ -15,15 +19,19 @@ public class AdManager : MonoBehaviour
         if (id == 1)
         {
             _secondLifePanel.SetActive(false);
-            FindObjectOfType<LevelManager>().SecondLife();
-            FindObjectOfType<GameManager>().SecondLife();
-            FindObjectOfType<GameUIManager>().SecondLife();
-            FindObjectOfType<MoneyManager>().SecondLife();
+            _levelManager.SecondLife();
+            _gameManager.SecondLife();
+            _gameUIManager.SecondLife();
+            _moneyManager.SecondLife();
         }
     }
 
     private void Start()
     {
+        _levelManager = FindObjectOfType<LevelManager>();
+        _gameManager = FindObjectOfType<GameManager>();
+        _gameUIManager = FindObjectOfType<GameUIManager>();
+        _moneyManager = FindObjectOfType<MoneyManager>();
         YandexGame.FullscreenShow();
     }
 

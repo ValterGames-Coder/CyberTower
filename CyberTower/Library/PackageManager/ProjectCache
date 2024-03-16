@@ -3649,10 +3649,12 @@ m_ResolvedPackages:
     - 1.8.10
     - 1.8.11
     - 1.8.12
+    - 1.8.13
     compatible:
     - 1.8.11
     - 1.8.12
-    verified: 1.8.12
+    - 1.8.13
+    verified: 1.8.13
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
@@ -4874,10 +4876,12 @@ m_ResolvedPackages:
     - 1.0.1
     - 1.1.0
     - 1.1.1
+    - 1.1.2
     compatible:
     - 1.0.1
     - 1.1.0
     - 1.1.1
+    - 1.1.2
     verified: 1.0.1
   dependencies:
   - name: com.unity.2d.sprite
