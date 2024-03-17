@@ -1,0 +1,65 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="AdManager">
+			<method name="ShowRewardedAd"/>
+		</type>
+		<type fullname="EducationManager">
+			<method name="ChangeFrame"/>
+			<method name="ChangeFrame"/>
+		</type>
+		<type fullname="GameManager">
+			<method name="PlayWave"/>
+		</type>
+		<type fullname="MusicManager">
+			<method name="SetMusicVolume"/>
+		</type>
+		<type fullname="PauseManager">
+			<method name="Pause"/>
+			<method name="Pause"/>
+		</type>
+		<type fullname="SceneMover">
+			<method name="MoveToScene"/>
+			<method name="MoveToScene"/>
+			<method name="MoveToScene"/>
+			<method name="MoveToScene"/>
+			<method name="MoveToScene"/>
+			<method name="MoveToScene"/>
+			<method name="MoveToScene"/>
+			<method name="PlayHistory"/>
+			<method name="TheEnd"/>
+		</type>
+		<type fullname="Settings">
+			<method name="OpenURL"/>
+			<method name="OpenURL"/>
+			<method name="SetRenderVolume"/>
+			<method name="SetRenderVolume"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

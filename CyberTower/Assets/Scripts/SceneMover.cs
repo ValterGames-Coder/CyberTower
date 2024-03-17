@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
-using YG;
 
 public class SceneMover : MonoBehaviour
 {
@@ -10,23 +9,21 @@ public class SceneMover : MonoBehaviour
 
     public void PlayHistory(int sceneId)
     {
-        if (YandexGame.SDKEnabled)
+
+        if(PlayerPrefs.GetInt("History", 0) != 0)
+            SceneManager.LoadScene(PlayerPrefs.GetInt("History"));
+        else
         {
-            if(YandexGame.savesData.history != 0)
-                SceneManager.LoadScene(YandexGame.savesData.history);
-            else
-            {
-                _director.Play();
-                YandexGame.savesData.history = 1;
-                YandexGame.SaveProgress();
-            }
+            _director.Play();
+            PlayerPrefs.SetInt("History", 1);
+            PlayerPrefs.Save();
         }
     }
 
     public void TheEnd()
     {
-        YandexGame.savesData.history = 0;
-        YandexGame.savesData.level = 0;
-        YandexGame.SaveProgress();
+        PlayerPrefs.SetInt("History", 0);
+        PlayerPrefs.SetInt("Level", 0);
+        PlayerPrefs.Save();
     }
 }

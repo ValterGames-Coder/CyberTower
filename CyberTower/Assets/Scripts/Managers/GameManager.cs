@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using YG;
 
 public enum GameState
 {
@@ -45,11 +44,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        _moneyManager = FindObjectOfType<MoneyManager>();
-        if (YandexGame.SDKEnabled)
-        {
-            LoadLevel();
-        }
+        _moneyManager = FindObjectOfType<MoneyManager>(); 
+        LoadLevel();
         _tower = _towers[CurrentLevel];
         _tower.gameObject.SetActive(true);
         _tower.GetComponent<Health>().OnDamage += damage => _towerDamage += damage;
@@ -59,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     private void LoadLevel()
     {
-        CurrentLevel = _debugLevel != -1 ? _debugLevel : YandexGame.savesData.level;
+        CurrentLevel = _debugLevel != -1 ? _debugLevel : PlayerPrefs.GetInt("Level", 0);
     }
 
     public bool CheckSouls(Unit unit) => souls >= unit.soul;
@@ -95,8 +91,8 @@ public class GameManager : MonoBehaviour
     {
         if (CurrentLevel != 5)
         {
-            YandexGame.savesData.level = CurrentLevel + 1;
-            YandexGame.SaveProgress();
+            PlayerPrefs.SetInt("Level", CurrentLevel + 1);
+            PlayerPrefs.Save();
         }
         else
         {

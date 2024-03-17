@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using YG;
 
 public class UnitSpawner : MonoBehaviour
 {
@@ -25,8 +24,7 @@ public class UnitSpawner : MonoBehaviour
         _gameManager.OnPlayWave += () => SetUnit(null);
         _moneyManager = FindObjectOfType<MoneyManager>();
         _camera = Camera.main;
-        _isMobile = YandexGame.EnvironmentData.deviceType == "mobile" ||
-                    YandexGame.EnvironmentData.deviceType == "tablet";
+        _isMobile = Application.isMobilePlatform;
     }
 
     private void EnableButtons()

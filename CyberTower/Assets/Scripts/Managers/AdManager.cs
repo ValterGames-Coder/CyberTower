@@ -1,5 +1,4 @@
 using UnityEngine;
-using YG;
 
 public class AdManager : MonoBehaviour
 {
@@ -11,7 +10,7 @@ public class AdManager : MonoBehaviour
 
     private void OnEnable()
     {
-        YandexGame.RewardVideoEvent += RewardVideoEvent;
+        //YandexGame.RewardVideoEvent += RewardVideoEvent;
     }
 
     private void RewardVideoEvent(int id)
@@ -32,11 +31,11 @@ public class AdManager : MonoBehaviour
         _gameManager = FindObjectOfType<GameManager>();
         _gameUIManager = FindObjectOfType<GameUIManager>();
         _moneyManager = FindObjectOfType<MoneyManager>();
-        YandexGame.FullscreenShow();
+        //YandexGame.FullscreenShow();
     }
 
     public void ShowRewardedAd()
     {
-        YandexGame.RewVideoShow(1);
+        //YandexGame.RewVideoShow(1);
     }
 }

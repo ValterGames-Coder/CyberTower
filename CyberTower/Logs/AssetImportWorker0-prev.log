@@ -24,7 +24,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-33015
+44533
 Successfully changed project path to: /home/valter/Projects/Unity/CyberTower/CyberTower
 /home/valter/Projects/Unity/CyberTower/CyberTower
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /home/valter/Projects/Unity/CyberTower/Cyb
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140411916919680] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 762414847 [EditorId] 762414847 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140309068862336] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 3150791673 [EditorId] 3150791673 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140411916919680] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 762414847 [EditorId] 762414847 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140309068862336] Host "[IP] 10.255.1.94 [Port] 0 [Flags] 2 [Guid] 3150791673 [EditorId] 3150791673 [Version] 1048832 [Id] LinuxEditor(16,10.255.1.94) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 140,89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 149,57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
 [Subsystems] Discovering subsystems at path /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -82,19 +82,19 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
 _multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 712809784
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -929291464
 Initialize mono
 Mono path[0] = '/home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed'
 Mono path[1] = '/home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56550
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56442
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/valter/Unity/Hub/Editor/2021.3.33f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,008340 seconds.
+Registered in 0,008699 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -116,32 +116,32 @@ Win32Exception: ApplicationName='/home/valter/Unity/Hub/Editor/2021.3.33f1/Edito
 
 (Filename: /home/bokken/build/output/unity/unity/Editor/Mono/Utils/Program.cs Line: 48)
 
-Refreshing native plugins compatible for Editor in 148,25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 154,11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,652 seconds
+- Completed reload, in  1,766 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1652ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1767ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1382ms)
-			LoadAssemblies (105ms)
+		EndReloadAssembly (1480ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1076ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1175ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (573ms)
+				InitializePlatformSupportModulesInManaged (660ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (148ms)
+				RefreshPlugins (154ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (257ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,42 +151,42 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Registering precompiled user dll's ...
-Registered in 0,002341 seconds.
+Registered in 0,002356 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 172,43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 152,64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 UpdateMenuTitleForLanguage: 10
 Mono: successfully reloaded assembly
-- Completed reload, in  2,423 seconds
+- Completed reload, in  2,412 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2425ms)
-		BeginReloadAssembly (190ms)
+	ReloadAssembly (2414ms)
+		BeginReloadAssembly (187ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (2043ms)
+		EndReloadAssembly (2032ms)
 			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (368ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (1271ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (1270ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (100ms)
+				InitializePlatformSupportModulesInManaged (108ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (172ms)
-				BeforeProcessingInitializeOnLoad (180ms)
-				ProcessInitializeOnLoadAttributes (593ms)
-				ProcessInitializeOnLoadMethodAttributes (218ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (592ms)
+				ProcessInitializeOnLoadMethodAttributes (227ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
@@ -195,12 +195,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1,16 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1,08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 5609 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (0,5 MB). Loaded Objects now: 6055.
-Memory consumption went from 214,2 MB to 213,7 MB.
-Total: 6,453334 ms (FindLiveObjects: 0,778381 ms CreateObjectMapping: 0,462000 ms MarkObjects: 4,636833 ms  DeleteObjects: 0,564108 ms)
+Memory consumption went from 214,6 MB to 214,1 MB.
+Total: 10,430935 ms (FindLiveObjects: 0,740247 ms CreateObjectMapping: 0,397746 ms MarkObjects: 8,657525 ms  DeleteObjects: 0,622146 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -215,364 +215,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 101094,124492 seconds.
-  path: Assets/Audio/30e76264d79c3d9.mp3
-  artifactKey: Guid(33c6bfbfacf58c4bb9e75ada155221a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 105258,632940 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/Universal2D.hlsl
+  artifactKey: Guid(67e3e0cfa0204244683a6c506307f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/30e76264d79c3d9.mp3 using Guid(33c6bfbfacf58c4bb9e75ada155221a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d78dcac012d13ac56bb5f7ba853d60') in 0,161220 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 25,460472 seconds.
-  path: Assets/Audio/CyberTower_Soundtrack1.mp3
-  artifactKey: Guid(e63cd65deb16234fbbe2b3cdffd50e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/CyberTower_Soundtrack1.mp3 using Guid(e63cd65deb16234fbbe2b3cdffd50e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04ffda6feece996a05a82cf94c8e76c') in 0,009359 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,051431 seconds.
-  path: Assets/Audio/Battle+Ariel+Planes+Fight.mp3
-  artifactKey: Guid(4d858aab446786c44be89bacf920a81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Battle+Ariel+Planes+Fight.mp3 using Guid(4d858aab446786c44be89bacf920a81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2a1c2d0582bdf3035619c98278ff8f') in 0,006906 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000022 seconds.
-  path: Assets/Audio/laser-gun-3-shot_zyz4u34u.mp3
-  artifactKey: Guid(5f015a72b91eeef359c4cc53fd201138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/laser-gun-3-shot_zyz4u34u.mp3 using Guid(5f015a72b91eeef359c4cc53fd201138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f67e8c6903c8f8175f72c4ced290566') in 0,011229 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000020 seconds.
-  path: Assets/Audio/mixkit-fuel-explosion-1705.wav
-  artifactKey: Guid(c5c33c4e64162fbba8b48632e679ed2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/mixkit-fuel-explosion-1705.wav using Guid(c5c33c4e64162fbba8b48632e679ed2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eab6abf7f9f0a4ab405302e0b3f7337') in 0,019519 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000019 seconds.
-  path: Assets/Audio/CyberTower_Soundtrack3.mp3
-  artifactKey: Guid(53be556bd2eec945aa6187b357c863df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/CyberTower_Soundtrack3.mp3 using Guid(53be556bd2eec945aa6187b357c863df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded1dff9cbb90d1230cfeaa6dc6de47b') in 0,005601 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000018 seconds.
-  path: Assets/Audio/laser-gun-single-shot_zyz4u34u.mp3
-  artifactKey: Guid(54e700cd6c92e4e2ba067e8cdc17faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/laser-gun-single-shot_zyz4u34u.mp3 using Guid(54e700cd6c92e4e2ba067e8cdc17faec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6c83e5a6c5769d2b7ba4cac779dabc') in 0,006527 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000020 seconds.
-  path: Assets/Audio/Bomb+1.mp3
-  artifactKey: Guid(28c8c1933b709c630b7e70035158801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Bomb+1.mp3 using Guid(28c8c1933b709c630b7e70035158801a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bdbd1113333b788a52f23cf8697c11') in 0,012730 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000018 seconds.
-  path: Assets/Audio/mixkit-game-gun-shot-1662.mp3
-  artifactKey: Guid(5b0720f224cd2d709a3f786607d74c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/mixkit-game-gun-shot-1662.mp3 using Guid(5b0720f224cd2d709a3f786607d74c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6334264a5f4ae332f5e281cb96fcc693') in 0,008992 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000025 seconds.
-  path: Assets/Audio/Explosion+3.mp3
-  artifactKey: Guid(a257dac73911722008a441d0a5641d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Explosion+3.mp3 using Guid(a257dac73911722008a441d0a5641d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a2264b8afce519160f5436128efea9') in 0,011920 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000041 seconds.
-  path: Assets/Audio/popadanie-puli-v-metall-37129.mp3
-  artifactKey: Guid(4ee0742be1c075f80ad110f9abd750cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/popadanie-puli-v-metall-37129.mp3 using Guid(4ee0742be1c075f80ad110f9abd750cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef625ba7a5176e8b9f56ab22607fab7') in 0,007058 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000018 seconds.
-  path: Assets/Audio/d181d0bbd0b0d0b1d18bd0b9-d0b4d0bed0b6d0b4d18c.mp3
-  artifactKey: Guid(590772ef5bc0b24fca5951eca2e3408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/d181d0bbd0b0d0b1d18bd0b9-d0b4d0bed0b6d0b4d18c.mp3 using Guid(590772ef5bc0b24fca5951eca2e3408b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16a8c29b72b3cde7acda79087083ef2') in 0,007197 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000017 seconds.
-  path: Assets/Audio/Grenade+2.mp3
-  artifactKey: Guid(f4a72cffda74355cd875eba661f2f380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Grenade+2.mp3 using Guid(f4a72cffda74355cd875eba661f2f380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2524300a38053cecf88207f0f28a202f') in 0,005951 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000018 seconds.
-  path: Assets/Audio/CyberTower_Soundtrack2.mp3
-  artifactKey: Guid(a59e7d9fbc89f6933aea2292d48de4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/CyberTower_Soundtrack2.mp3 using Guid(a59e7d9fbc89f6933aea2292d48de4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4cf2c7d442c2b12e4d00c3689f7b15') in 0,011556 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000027 seconds.
-  path: Assets/Audio/laserSmall_002.ogg
-  artifactKey: Guid(15f5a5d286decb9d098e93c546a47dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/laserSmall_002.ogg using Guid(15f5a5d286decb9d098e93c546a47dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948000c899f2185feb21eabfb08d70d4') in 0,006694 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (506,0 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 5,732642 ms (FindLiveObjects: 0,546438 ms CreateObjectMapping: 0,177955 ms MarkObjects: 4,656108 ms  DeleteObjects: 0,340266 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 771,919019 seconds.
-  path: Assets/Audio/30e76264d79c3d9 1.mp3
-  artifactKey: Guid(ca798aaff777122c3b4809f83e5dddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/30e76264d79c3d9 1.mp3 using Guid(ca798aaff777122c3b4809f83e5dddfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48fb6eed1d34393e5d546bbeccdb5da3') in 0,023608 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000028 seconds.
-  path: Assets/Audio/d181d0bbd0b0d0b1d18bd0b9-d0b4d0bed0b6d0b4d18c 1.mp3
-  artifactKey: Guid(46339bc425235a5dc9e636d6457a3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/d181d0bbd0b0d0b1d18bd0b9-d0b4d0bed0b6d0b4d18c 1.mp3 using Guid(46339bc425235a5dc9e636d6457a3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788aefb8eac8bfe360859783f97e43a7') in 0,005155 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000025 seconds.
-  path: Assets/Audio/CyberTower_Soundtrack3 1.mp3
-  artifactKey: Guid(73c0250deae21245a833259de1a24a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/CyberTower_Soundtrack3 1.mp3 using Guid(73c0250deae21245a833259de1a24a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0b469f19dc2f12b64843c4ef3d24a2') in 0,008440 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000022 seconds.
-  path: Assets/Audio/Bomb+1 1.mp3
-  artifactKey: Guid(c29d54abadde6975c8f7bc0d72ce64a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Bomb+1 1.mp3 using Guid(c29d54abadde6975c8f7bc0d72ce64a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69104401f69f75aad6a98bb5a334c120') in 0,005809 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000023 seconds.
-  path: Assets/Audio/Explosion+3 1.mp3
-  artifactKey: Guid(e43db6ec9a16c7e25bbbba21a56cadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Explosion+3 1.mp3 using Guid(e43db6ec9a16c7e25bbbba21a56cadbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cdae45bf5e74e3b2e017dd1f15f822') in 0,006008 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000022 seconds.
-  path: Assets/Audio/Grenade+2 1.mp3
-  artifactKey: Guid(d390f3042355159c88705cda0a6cba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Grenade+2 1.mp3 using Guid(d390f3042355159c88705cda0a6cba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a189e48b076480d7dbd88a1707bb3883') in 0,004911 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0,000029 seconds.
-  path: Assets/Audio/CyberTower_Soundtrack2 1.mp3
-  artifactKey: Guid(e974297c9df34c880849109bc083c3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/CyberTower_Soundtrack2 1.mp3 using Guid(e974297c9df34c880849109bc083c3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8baf5c6e99196460dfe8e0f9c49134') in 0,007053 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Utils/Universal2D.hlsl using Guid(67e3e0cfa0204244683a6c506307f311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6138a60002cb8246b6fd2b8dbe8c9c') in 0,027197 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0,000024 seconds.
-  path: Assets/Audio/Battle+Ariel+Planes+Fight 1.mp3
-  artifactKey: Guid(ef790e62fda59f75193259aa3c2bb9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/Fullscreen.hlsl
+  artifactKey: Guid(e45d2ff934ddd6e4db82cf6704237f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/Battle+Ariel+Planes+Fight 1.mp3 using Guid(ef790e62fda59f75193259aa3c2bb9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c047d43e0f5c23b5dee26f1105c5479') in 0,005812 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Utils/Fullscreen.hlsl using Guid(e45d2ff934ddd6e4db82cf6704237f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdb54add0b26744085a1564b8a3a18d') in 0,000970 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000023 seconds.
-  path: Assets/Audio/CyberTower_Soundtrack1 1.mp3
-  artifactKey: Guid(db2822be87b075129973a2f1ad2c6d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0,000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/Deferred.hlsl
+  artifactKey: Guid(cfc329b92a1d36c48ae176d31d46cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Audio/CyberTower_Soundtrack1 1.mp3 using Guid(db2822be87b075129973a2f1ad2c6d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d700831d1e4abdb5b8bbf17108e0dce') in 0,011924 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Utils/Deferred.hlsl using Guid(cfc329b92a1d36c48ae176d31d46cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c2ada977811b24e7106ca9cb36a2d5') in 0,000907 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000106 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepthPass.hlsl
+  artifactKey: Guid(971e7c84ed6bc40fc95bdbb2e008013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Utils/CopyDepthPass.hlsl using Guid(971e7c84ed6bc40fc95bdbb2e008013f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496600f3c86a97eb5fb4ca68c11337b4') in 0,000945 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0,000020 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/GameScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd4ac0c2e7f983bae8e72ece8dbb86') in 0,000563 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 4,44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4,49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (502,8 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 8,010585 ms (FindLiveObjects: 0,570464 ms CreateObjectMapping: 0,239625 ms MarkObjects: 6,806382 ms  DeleteObjects: 0,381752 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (506,2 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 5,563766 ms (FindLiveObjects: 0,537288 ms CreateObjectMapping: 0,165524 ms MarkObjects: 4,507626 ms  DeleteObjects: 0,341314 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (506,3 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 12,452839 ms (FindLiveObjects: 0,664540 ms CreateObjectMapping: 0,270914 ms MarkObjects: 11,114611 ms  DeleteObjects: 0,390832 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (507,2 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 10,381068 ms (FindLiveObjects: 0,602939 ms CreateObjectMapping: 0,190667 ms MarkObjects: 9,155354 ms  DeleteObjects: 0,413461 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (506,4 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 21,498263 ms (FindLiveObjects: 0,796330 ms CreateObjectMapping: 0,512356 ms MarkObjects: 19,266554 ms  DeleteObjects: 0,633251 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,95 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (501,8 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 5,945169 ms (FindLiveObjects: 0,596095 ms CreateObjectMapping: 0,188501 ms MarkObjects: 4,795232 ms  DeleteObjects: 0,353397 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5,16 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (502,6 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 6,253378 ms (FindLiveObjects: 0,558591 ms CreateObjectMapping: 0,174254 ms MarkObjects: 5,155823 ms  DeleteObjects: 0,352489 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4,31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0,00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (506,4 KB). Loaded Objects now: 6065.
-Memory consumption went from 93,5 MB to 93,0 MB.
-Total: 5,319810 ms (FindLiveObjects: 0,536031 ms CreateObjectMapping: 0,166851 ms MarkObjects: 4,255988 ms  DeleteObjects: 0,348927 ms)
+Unloading 40 unused Assets / (510,5 KB). Loaded Objects now: 6056.
+Memory consumption went from 93,6 MB to 93,1 MB.
+Total: 10,498052 ms (FindLiveObjects: 0,576051 ms CreateObjectMapping: 0,179911 ms MarkObjects: 9,345113 ms  DeleteObjects: 0,383638 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

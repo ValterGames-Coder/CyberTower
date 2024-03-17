@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using YG;
 
 public class EducationManager : MonoBehaviour
 {
@@ -10,11 +9,8 @@ public class EducationManager : MonoBehaviour
 
     private void Awake()
     {
-        if (YandexGame.SDKEnabled)
-        {
-            if(YandexGame.savesData.education)
-                gameObject.SetActive(false);
-        }
+        if(PlayerPrefs.GetInt("Education", 0) == 1)
+            gameObject.SetActive(false);
     }
 
     public void ChangeFrame(int change)
@@ -22,8 +18,8 @@ public class EducationManager : MonoBehaviour
         //_backButton.SetActive(_currentFrame + change >= 1);
         if (_currentFrame + change == _frames.Count)
         {
-            YandexGame.savesData.education = true;
-            YandexGame.SaveProgress();
+            PlayerPrefs.SetInt("Education", 1);
+            PlayerPrefs.Save();
             gameObject.SetActive(false);
         }
         else

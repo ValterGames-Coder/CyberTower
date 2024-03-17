@@ -4,7 +4,6 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using YG;
 using Random = UnityEngine.Random;
 
 public class MusicManager : MonoBehaviour
@@ -43,8 +42,8 @@ public class MusicManager : MonoBehaviour
     {
         //_audioListener.enabled = _musicToggle.isOn;
         _musicVolume = _musicToggle.isOn ? 1 : 0; // множитель звука
-        YandexGame.savesData.music = _musicToggle.isOn ? 1 : 0;
-        YandexGame.SaveProgress();
+        PlayerPrefs.SetInt("Music", _musicToggle.isOn ? 1 : 0);
+        PlayerPrefs.Save();
     }
     
     private void Start()
@@ -52,12 +51,10 @@ public class MusicManager : MonoBehaviour
         _audio = GetComponent<AudioSource>();
         //_audioListener = FindObjectOfType<AudioListener>();
         SceneManager.activeSceneChanged += SceneManagerOnactiveSceneChanged;
-        if (YandexGame.SDKEnabled)
-        {
-            if (_musicToggle != null)
-                _musicToggle.isOn = YandexGame.savesData.music == 1;
-            _musicVolume = YandexGame.savesData.music;
-        }
+        if (_musicToggle != null)
+            _musicToggle.isOn = PlayerPrefs.GetInt("Music", 1) == 1;
+        _musicVolume = PlayerPrefs.GetInt("Music", 1);
+        
     }
 
     private void SceneManagerOnactiveSceneChanged(Scene arg0, Scene arg1)

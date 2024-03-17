@@ -1,2 +1,0 @@
-Build path: /home/valter/Projects/Unity/CyberTower/Builds/CyberTower 1.0.2
-Build number: 23

@@ -15,9 +15,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Director();
 	RegisterModule_Director();
 
-	void RegisterModule_ImageConversion();
-	RegisterModule_ImageConversion();
-
 	void RegisterModule_IMGUI();
 	RegisterModule_IMGUI();
 
@@ -54,9 +51,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_TextCoreTextEngine();
 	RegisterModule_TextCoreTextEngine();
 
-	void RegisterModule_TLS();
-	RegisterModule_TLS();
-
 	void RegisterModule_UI();
 	RegisterModule_UI();
 
@@ -65,12 +59,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 
 	void RegisterModule_UIElements();
 	RegisterModule_UIElements();
-
-	void RegisterModule_UnityWebRequest();
-	RegisterModule_UnityWebRequest();
-
-	void RegisterModule_UnityWebRequestTexture();
-	RegisterModule_UnityWebRequestTexture();
 
 	void RegisterModule_VR();
 	RegisterModule_VR();
