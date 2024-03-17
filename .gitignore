@@ -72,3 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 CyberTower/Library/PackageCache
+CyberTower/Library/ShaderCache

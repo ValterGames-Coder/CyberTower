@@ -42,7 +42,7 @@ public class MusicManager : MonoBehaviour
     public void SetMusicVolume()
     {
         //_audioListener.enabled = _musicToggle.isOn;
-        _musicVolume = _musicToggle.isOn ? 1 : 0;
+        _musicVolume = _musicToggle.isOn ? 1 : 0; // множитель звука
         YandexGame.savesData.music = _musicToggle.isOn ? 1 : 0;
         YandexGame.SaveProgress();
     }

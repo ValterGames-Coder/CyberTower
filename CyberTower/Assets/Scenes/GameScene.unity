@@ -1140,6 +1140,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toggle
       objectReference: {fileID: 0}
+    - target: {fileID: 5258550636819451967, guid: 152acff43e0c318359af6e5174c566e9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 152acff43e0c318359af6e5174c566e9, type: 3}
 --- !u!114 &58288090 stripped
@@ -10943,7 +10947,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -267.85248, y: -54.6}
+  m_AnchoredPosition: {x: -84, y: -54.6}
   m_SizeDelta: {x: 137.817, y: 89.0748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425442586
@@ -15513,7 +15517,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -108.45459, y: -54.6}
+  m_AnchoredPosition: {x: 75.3979, y: -54.6}
   m_SizeDelta: {x: 155.2128, y: 89.0748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749761501
